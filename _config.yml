@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: My Blog
+title: gumohua 的博客
 subtitle: '记录与分享'
 description: '一个使用 Hexo + Butterfly 搭建的博客'
 keywords: 'blog,hexo,butterfly'
@@ -106,6 +106,21 @@ search:
   content: true
   format: html
   limit: 10000
+
+# RSS (hexo-generator-feed)
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+
+# Sitemap (hexo-generator-sitemap)
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
