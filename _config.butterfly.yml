@@ -132,11 +132,15 @@ share:
 
 # 评论：Giscus（GitHub Discussions）
 comments:
-  use: Giscus
+  use: Utterances
   text: true
   lazyload: false
   count: false
   card_post_count: false
+
+  utterances:
+  repo: gumohua/blog
+  issue_term: pathname
 
 giscus:
   repo: gumohua/blog
